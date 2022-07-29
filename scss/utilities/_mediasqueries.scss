@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px){
+.divBodyIndex {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "footer footer footer";
+    align-items: center;
+}
+header h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+}
